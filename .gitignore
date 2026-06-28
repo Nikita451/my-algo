@@ -1,0 +1,57 @@
+# Байт-код Python (кэш компиляции)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+pyvenv.cfg
+
+# Переменные окружения и секреты
+.env
+.env.local
+.env.*.local
+
+# Логи и отчеты об ошибках
+*.log
+pip-log.txt
+crashdump.docx
+
+# Папки библиотек и сборки пакетов
+.eggs/
+_build/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Настройки сред разработки (IDE)
+# .vscode/
+
+# Jupyter Notebook (кэш контрольных точек)
+.ipynb_checkpoints
+
+# Тестирование и покрытие кода
+.pytest_cache/
+.coverage
+htmlcov/
+.nosexy
+.tox/
+.nox/
+
+spam_data/
